@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Clean Earth</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="mission.html">Our Mission</a>
+                        <a href="team.html">Our Team</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Campaigns</a>
+                    <div class="dropdown-content">
+                        <a href="forest.html">Save the Forests</a>
+                        <a href="oceans.html">Protect the Oceans</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Clean Earth</h2>
+        <p>If you have any questions, suggestions, or want to join us, please fill out the form below, and we’ll get back to you as soon as possible.</p>
+        <div class="contact-form">
+            <form action="https://hnitest.go.yj.fr" method="POST">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required><br><br>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required><br><br>
+
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="email" placeholder="yourmail@yahoo.com" required><br><br>
+
+                <label for="request">Message:</label>
+                <textarea id="request" name="request" rows="5" cols="60"></textarea><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="france">France</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clean Earth NGO. All rights reserved.</p>
+    </footer>
+</body>
+</html>
